@@ -4,4 +4,10 @@ title: About
 permalink: /about/
 ---
 
-The machine learning team at Jade is led by Dr Syen Nik. Syen has a PhD in Medical Physics and previously worked at the Ministry of Social Development where he implemented machine learning in the social sector. The team is made up of graduates from University of Canterbury’s Master of Applied Data Science and Master of Computer Science programmes. Our aim is to put something helpful on a screen.
+I have been a data science praticioner since 2013.
+
+I bring a unique view that combines my experience in the public sector, private sector, and research. In other words, I have been:
+- a data scientist at Ministry of Social Development in Wellington, NZ
+- Head of Machine Learning at Jade Software in Christchurch, NZ
+
+Previously, I was a medical physics student with MARS Bioaimaging at the University of Canterbury in Christchurch, NZ.

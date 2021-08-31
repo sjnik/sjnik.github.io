@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: mlog
-email: snik@jadeworld.com
+email: sjnik@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Sharing what is happening with machine learning at Jade, with mostly pictures and words, one algorithm at a time.
+  A log of what happened in my lfe, machine-learning-wise.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb

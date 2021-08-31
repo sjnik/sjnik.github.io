@@ -2,20 +2,22 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Where is the train? Choo choo | mlog</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.7" />
 <meta property="og:title" content="Where is the train? Choo choo" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="In Q4 2018, we ran a 4-week project to extract 2 years’ worth of train trip data to to develop a machine learning model that predicts ETA of a train. We have used data from 2016 and 2017 to train our machine learning models. To emulate how the models would be implemented, we applied the models to predict events in 2018." />
-<meta property="og:description" content="In Q4 2018, we ran a 4-week project to extract 2 years’ worth of train trip data to to develop a machine learning model that predicts ETA of a train. We have used data from 2016 and 2017 to train our machine learning models. To emulate how the models would be implemented, we applied the models to predict events in 2018." />
+<meta name="description" content="A log of what happened in my lfe, machine-learning-wise." />
+<meta property="og:description" content="A log of what happened in my lfe, machine-learning-wise." />
 <link rel="canonical" href="http://localhost:4000/2019/02/08/predicting-train-delays.html" />
 <meta property="og:url" content="http://localhost:4000/2019/02/08/predicting-train-delays.html" />
 <meta property="og:site_name" content="mlog" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-02-08T09:08:00+13:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Where is the train? Choo choo" />
 <script type="application/ld+json">
-{"description":"In Q4 2018, we ran a 4-week project to extract 2 years’ worth of train trip data to to develop a machine learning model that predicts ETA of a train. We have used data from 2016 and 2017 to train our machine learning models. To emulate how the models would be implemented, we applied the models to predict events in 2018.","@type":"BlogPosting","url":"http://localhost:4000/2019/02/08/predicting-train-delays.html","headline":"Where is the train? Choo choo","dateModified":"2019-02-08T09:08:00+13:00","datePublished":"2019-02-08T09:08:00+13:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/02/08/predicting-train-delays.html"},"@context":"http://schema.org"}</script>
+{"url":"http://localhost:4000/2019/02/08/predicting-train-delays.html","headline":"Where is the train? Choo choo","dateModified":"2019-02-08T09:08:00+13:00","datePublished":"2019-02-08T09:08:00+13:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/02/08/predicting-train-delays.html"},"description":"A log of what happened in my lfe, machine-learning-wise.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="mlog" /></head>
 <body><header class="site-header" role="banner">
@@ -45,19 +47,9 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>In Q4 2018, we ran a 4-week project to extract 2 years’ worth of train trip data to to develop a machine learning model that predicts ETA of a train. We have used data from 2016 and 2017 to train our machine learning models. To emulate how the models would be implemented, we applied the models to predict events in 2018.</p>
+    <p><img src="/assets/eta-screenshot.png" alt="ETA screenshot" /></p>
 
-<p>In the proof of concept, we used data from 4 DB Cargo’s customers, namely British Steel, Mendip Rail, Tarmac and Puma Energy. We cleansed and aggregated 30,000 train trips from the ECOS system using our bespoke pre-processing methods. We calculated measures about the trips such as delays in the first two stations, busyness of the next stations and distance to final destinations. Overall, we processed 40 of these measures for every trip, which equate to a total of more than 1.2 million data points. Day of week is one of the 40 measures included in the machine learning model. The plot below shows delays distributed across Monday to Sunday. In this case Sunday clearly has the least proportion of early/late arrivals.
-<img src="/assets/delays_vs_days_of_week.png" alt="delay vs. days of week" /></p>
-
-<p>All trips were also tagged with the early arrival or delay in minutes. The goal of machine learning algorithms is to find the correlations of the 40 measures with the delay or early arrival. To achieve this, the processed data was fed into multiple machine learning algorithms and the one with the best performance was selected.</p>
-
-<p>The purpose of the machine learning model is to guide human decision-making in taking follow-up actions. An example of follow-up actions for this model may include; deploying workers later or earlier based on predicted arrival time, but also more effective use of physical rail resource, planning and scheduling. 
-We have provided a demonstration of the performance of the model for DB Cargo on an interactive <a href="https://jadeai.shinyapps.io/traindelays/">visualisation platform</a> (email me for access).</p>
-
-<h3 id="next-steps">Next steps</h3>
-
-<p>Aspects of the research project have immediately led to investigations to integrate train ETA into the DB Cargo Customer Portal based on the ML model. This includes expanding the machine learning model to incorporate all of DB Cargo’s current customers. Incorporating additional data. For example, weather data and passenger-train data is also expected to lift the performance to give more accurate predictions.</p>
+<p>Our customer <a href="https://www.linkedin.com/posts/db-cargo-uk-limited_dbcustomerportal-teamred-activity-6795325591106150400-jXu4">posted it on LinkedIn</a></p>
 
   </div><a class="u-url" href="/2019/02/08/predicting-train-delays.html" hidden></a>
 </article>
@@ -73,14 +65,14 @@ We have provided a demonstration of the performance of the model for DB Cargo on
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">mlog</li><li><a class="u-email" href="mailto:snik@jadeworld.com">snik@jadeworld.com</a></li></ul>
+          <li class="p-name">mlog</li><li><a class="u-email" href="mailto:sjnik@pm.me">sjnik@pm.me</a></li></ul>
       </div>
 
       <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>Sharing what is happening with machine learning at Jade, with mostly pictures and words, one algorithm at a time.</p>
+        <p>A log of what happened in my lfe, machine-learning-wise.</p>
       </div>
     </div>
 
