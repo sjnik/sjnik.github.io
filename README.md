@@ -1,5 +1,4 @@
-A log of what happened in my life, machine-learning-wise
-
-Built using Jekyll
-
-Hosted by github pages: [sjnik.github.io](https://sjnik.github.io./)
+A log of what happened in my life, machine-learning-wise.
+- built using Jekyll
+- hosted by github pages
+- [sjnik.github.io](https://sjnik.github.io./)
