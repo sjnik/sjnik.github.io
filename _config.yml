@@ -17,7 +17,7 @@ title: mlog
 email: sjnik@pm.me
 description: >- # this means to ignore newlines until "baseurl:"
   A log of what happened in my lfe, machine-learning-wise.
-baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
@@ -25,7 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 markdown: kramdown
 #theme: minima
-remote-theme: poole/lanyon
+remote_theme: poole/lanyon
 plugins:
   - jekyll-feed
 
