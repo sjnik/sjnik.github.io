@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+This is a collection of published materials that I have been contributing to.
+
 I have been a data science praticioner since 2013.
 
 I bring a unique view that combines my experience in the public sector, private sector, and research. In other words, I have been:
@@ -11,5 +13,3 @@ I bring a unique view that combines my experience in the public sector, private 
 - the Head of Machine Learning at Jade Software in Christchurch, NZ
 
 Previously, I was a medical physics student with MARS Bioaimaging at the University of Canterbury in Christchurch, NZ.
-
-This is a collection of published materials that I have been contributing to.
