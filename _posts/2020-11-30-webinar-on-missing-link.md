@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title:  "Webinar on the missing link for ML"
+title:  "The missing link for ML"
 date:   2020-11-30 12:14:00 +1300
 ---
 
